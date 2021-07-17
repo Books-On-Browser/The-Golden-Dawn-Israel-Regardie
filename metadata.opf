@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">8bd18576-7579-4765-97b3-9a3f53751e51</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">8bd18576-7579-4765-97b3-9a3f53751e51</dc:identifier>
+        <dc:title>The Golden Dawn</dc:title>
+        <dc:creator opf:file-as="Regardie, Israel" opf:role="aut">Israel Regardie</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.11.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2015-12-14T00:00:00+00:00</dc:date>
+        <dc:description>&lt;p&gt;First published in 1937, Israel Regardie’s The Golden Dawn has become the most influential modern handbook of magical theory and practice. In this new, definitive edition, noted scholar John Michael Greer has taken this essential resource back to its original, authentic form. With added illustrations, a twenty-page color insert, additional original material, and refreshed design and typography, this powerful work returns to its true stature as a modern masterpiece.&lt;/p&gt; &lt;p&gt;An essential textbook for students of the occult, The Golden Dawn includes occult symbolism and Qabalistic philosophy, training methods for developing magical and clairvoyant powers, rituals that summon and banish spiritual potencies, secrets of making and consecrating magical tools, and much more.&lt;/p&gt;</dc:description>
+        <dc:publisher>Llewellyn Worldwide, LTD.</dc:publisher>
+        <dc:language>pt</dc:language>
+        <dc:subject>Magia</dc:subject>
+        <dc:subject>Meditação</dc:subject>
+        <meta name="calibre:author_link_map" content="{}"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capas" href="cover.jpg"/>
+    </guide>
+</package>
