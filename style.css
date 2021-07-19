@@ -1,8 +1,26 @@
+body {
+    margin: 0 auto;
+    max-width: 700px;
+    line-height: 180%;
+    padding: 24px;
+    background-color: #282a36;
+/*     background-color: #0d1117; */
+    color: #f8f8f2 !important;
+/*     color: #c9d1d9; */
+}
 img {
     max-width: 100%;
     width: auto !important;
     margin: 0 auto;
     text-align: center !important;
+    background: #f8f8f2;
+}
+.cover2 {
+    display: flex;
+    justify-content: center;
+}
+.image-cover {
+    background: none;
 }
 .table-scroll {
     overflow-x: overlay;
@@ -23,15 +41,15 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Lovato Light", serif;
+    font-family: "Lovato Light",sans-serif;
     font-size: 1.29167em;
     font-style: normal;
     font-variant: normal;
     font-weight: 300;
     hyphens: none;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -58,15 +76,15 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Lovato Light", serif;
+    font-family: "Lovato Light",sans-serif;
     font-size: 1.29167em;
     font-style: normal;
     font-variant: normal;
     font-weight: 300;
     hyphens: none;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -89,14 +107,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.292;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -117,14 +135,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.292;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -146,14 +164,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: Times, serif;
+    font-family: Times,sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -174,14 +192,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.292;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -202,14 +220,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.292;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -231,14 +249,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.292;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -259,14 +277,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.292;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -291,7 +309,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 25%
     }
 .c1 {
@@ -299,7 +317,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 10%
     }
 .c2 {
@@ -307,7 +325,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 90%
     }
 .c3 {
@@ -315,7 +333,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 40%
     }
 .c4 {
@@ -323,7 +341,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 80%
     }
 .c5 {
@@ -331,7 +349,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 15%
     }
 .c6 {
@@ -339,7 +357,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 60%
     }
 .c7 {
@@ -347,7 +365,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 35%
     }
 .c8 {
@@ -355,7 +373,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 30%
     }
 .c9 {
@@ -363,7 +381,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 20%
     }
 .c10 {
@@ -371,7 +389,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 33%
     }
 .c11 {
@@ -379,7 +397,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 50%
     }
 .c12 {
@@ -387,187 +405,187 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 70%
     }
 .c13 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 50%
     }
 .c14 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 10%
     }
 .c15 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 60%
     }
 .c16 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 40%
     }
 .c17 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 20%
     }
 .c18 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 15%
     }
 .c19 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 25%
     }
 .c20 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 5%
     }
 .c21 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 95%
     }
 .c22 {
@@ -575,87 +593,87 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 5%
     }
 .c23 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 70%
     }
 .c24 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 30%
     }
 .c25 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 80%
     }
 .c26 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: black;
+    border-left-color: #f8f8f2;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: black;
+    border-right-color: #f8f8f2;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 33%
     }
 .c27 {
@@ -663,7 +681,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     width: 75%
     }
 .calibre {
@@ -684,7 +702,7 @@ img {
     box-sizing: border-box;
     display: block;
     font-size: 1em;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 5pt;
     margin-right: 5pt;
@@ -705,7 +723,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -725,7 +743,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -webkit-hyphens: auto;
-    background-color: white;
+    background-color: #f8f8f2;
     background-size: contain;
     border-bottom-width: 0;
     border-left-width: 0;
@@ -735,7 +753,7 @@ img {
     display: block;
     font-size: 1em;
     /* height: 100%; */
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     /* margin-left: 5pt;
     margin-right: 5pt; */
@@ -758,21 +776,21 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    line-height: 1.2
+    line-height: 180%;
     }
 .calibre7 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column-group;
-    line-height: 1.2
+    line-height: 180%;
     }
 .calibre8 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-row-group;
-    line-height: 1.2;
+    line-height: 180%;
     vertical-align: middle
     }
 .calibre9 {
@@ -780,7 +798,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-row;
-    line-height: 1.2;
+    line-height: 180%;
     vertical-align: top
     }
 .calibre10 {
@@ -788,24 +806,24 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2
+    line-height: 180%;
     }
 .calibre11 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2
+    line-height: 180%;
     }
 .calibre12 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     box-sizing: border-box;
     display: table-row;
-    line-height: 1.2;
+    line-height: 180%;
     vertical-align: top
     }
 .calibre13 {
@@ -822,7 +840,7 @@ img {
     box-sizing: border-box;
     display: block;
     font-size: 1em;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 5pt;
     margin-right: 5pt;
@@ -874,14 +892,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium Italic", serif;
+    font-family: "Dante MT Medium Italic",sans-serif;
     font-size: 0.83333em;
     font-style: italic;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 16px;
     margin-left: 0;
     margin-right: 0;
@@ -903,14 +921,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium Italic", serif;
+    font-family: "Dante MT Medium Italic",sans-serif;
     font-size: 0.83333em;
     font-style: italic;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -931,14 +949,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium Italic", serif;
+    font-family: "Dante MT Medium Italic",sans-serif;
     font-size: 0.83333em;
     font-style: italic;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -960,14 +978,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.364;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -989,14 +1007,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Times New Roman", serif;
+    font-family: "Times New Roman",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 2;
+    line-height: 180%;
     margin-bottom: 3px;
     margin-left: 0;
     margin-right: 0;
@@ -1017,14 +1035,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1045,14 +1063,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1073,14 +1091,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
     font-family: Hebraica, sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1102,14 +1120,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Times New Roman", serif;
+    font-family: "Times New Roman",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1132,14 +1150,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Times New Roman", serif;
+    font-family: "Times New Roman",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 2;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
@@ -1156,7 +1174,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     font-size: 1em;
     font-style: italic;
     font-weight: normal
@@ -1183,16 +1201,16 @@ img {
     font-family: Hebraica, sans-serif;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .char-style-override4 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .char-style-override5 {
     -moz-box-sizing: border-box;
@@ -1202,7 +1220,7 @@ img {
     font-size: 2em;
     font-style: normal;
     font-weight: 300;
-    line-height: 1em
+    line-height: 180%;
     }
 .char-style-override6 {
     -moz-box-sizing: border-box;
@@ -1233,13 +1251,13 @@ img {
     font-size: 1.29167em;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .char-style-override10 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-style: normal;
     font-weight: normal
     }
@@ -1250,7 +1268,7 @@ img {
     font-family: AnnsAstroRegular, sans-serif;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .char-style-override12 {
     -moz-box-sizing: border-box;
@@ -1263,7 +1281,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Warnock Pro", serif;
+    font-family: "Warnock Pro",sans-serif;
     font-style: normal;
     font-weight: normal
     }
@@ -1274,7 +1292,7 @@ img {
     font-family: "Antinoou Regular", sans-serif;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .char-style-override15 {
     -moz-box-sizing: border-box;
@@ -1302,7 +1320,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-weight: normal
@@ -1311,7 +1329,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Times New Roman", serif;
+    font-family: "Times New Roman",sans-serif;
     font-style: normal;
     font-weight: normal
     }
@@ -1321,7 +1339,7 @@ img {
     box-sizing: border-box;
     font-style: normal;
     font-weight: bold;
-    line-height: 1.2
+    line-height: 180%;
     }
 .char-style-override21 {
     -moz-box-sizing: border-box;
@@ -1334,7 +1352,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 1em;
-    line-height: 1.2
+    line-height: 180%;
     }
 .char-style-override23 {
     -moz-box-sizing: border-box;
@@ -1344,7 +1362,7 @@ img {
     font-size: 2em;
     font-style: normal;
     font-weight: 300;
-    line-height: 1.2
+    line-height: 180%;
     }
 .char-style-override24 {
     -moz-box-sizing: border-box;
@@ -1358,7 +1376,7 @@ img {
     box-sizing: border-box;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .chart-head {
     -moz-box-sizing: border-box;
@@ -1368,14 +1386,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1396,14 +1414,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1424,14 +1442,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 0.83333em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.182;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1452,14 +1470,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 0.83333em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1480,14 +1498,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 76px;
     margin-right: 0;
@@ -1508,14 +1526,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1536,14 +1554,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1564,14 +1582,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
     font-family: Hebraica, sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1592,14 +1610,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1621,14 +1639,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1649,14 +1667,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
     font-family: AnnsAstroRegular, sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1677,14 +1695,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 39px;
     margin-right: 0;
@@ -1705,14 +1723,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 60px;
     margin-right: 0;
@@ -1733,14 +1751,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1761,14 +1779,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
     font-family: "Antinoou Regular", sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1789,14 +1807,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 15px;
     margin-right: 0;
@@ -1817,14 +1835,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 0.83333em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.182;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1845,14 +1863,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1873,14 +1891,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1901,14 +1919,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1930,12 +1948,12 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 0.83333em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.556;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -1955,7 +1973,7 @@ img {
     box-sizing: border-box;
     display: block;
     height: auto;
-    line-height: 1.2;
+    line-height: 180%;
     margin: 10px auto;
     /* margin-left: 7%;
     margin-right: 8%;
@@ -1973,7 +1991,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
@@ -1992,14 +2010,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -2020,14 +2038,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -2048,14 +2066,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 0.75em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 14px;
     margin-right: 0;
@@ -2078,14 +2096,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 0.75em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 14px;
     margin-right: 0;
@@ -2107,14 +2125,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 0.75em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 14px;
     margin-right: 0;
@@ -2182,14 +2200,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 0.75em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 14px;
     margin-right: 0;
@@ -2208,12 +2226,12 @@ img {
     border-bottom-width: 0;
     border-left-width: 0;
     border-right-width: 0;
-    border-top-color: black;
+    border-top-color: #f8f8f2;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -2257,7 +2275,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 0.8em;
-    line-height: 1.2;
+    line-height: 180%;
     width: auto
     }
 .frame5 {
@@ -2265,7 +2283,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 8px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 8px
     }
 .frame6 {
@@ -2273,7 +2291,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 10px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 31px
     }
 .frame7 {
@@ -2295,7 +2313,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 0.6em;
-    line-height: 1.2;
+    line-height: 180%;
     width: auto
     }
 .frame10 {
@@ -2303,7 +2321,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 1em;
-    line-height: 1.2;
+    line-height: 180%;
     width: auto
     }
 .frame11 {
@@ -2311,7 +2329,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 6px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 5px
     }
 .frame12 {
@@ -2319,7 +2337,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 7px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 12px
     }
 .frame13 {
@@ -2327,7 +2345,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 7px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 52px
     }
 .frame14 {
@@ -2335,7 +2353,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 7px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 22px
     }
 .frame15 {
@@ -2343,7 +2361,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 10px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 28px
     }
 .frame16 {
@@ -2351,7 +2369,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 10px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 25px
     }
 .frame17 {
@@ -2359,7 +2377,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 11px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 19px
     }
 .frame18 {
@@ -2731,7 +2749,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 0.3em;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0.5em;
     width: auto
     }
@@ -2839,7 +2857,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 47px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 23px
     }
 .frame86 {
@@ -2847,7 +2865,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 6px;
-    line-height: 1.2;
+    line-height: 180%;
     width: 13px
     }
 .frame87 {
@@ -3033,14 +3051,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 12px;
     margin-right: 0;
@@ -3062,14 +3080,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 12px;
     margin-right: 0;
@@ -3090,14 +3108,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 12px;
     margin-right: 0;
@@ -3118,14 +3136,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 12px;
     margin-right: 0;
@@ -3147,14 +3165,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 12px;
     margin-right: 0;
@@ -3176,14 +3194,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 12px;
     margin-right: 0;
@@ -3204,14 +3222,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 12px;
     margin-right: 0;
@@ -3232,14 +3250,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 12px;
     margin-right: 0;
@@ -3282,14 +3300,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3306,7 +3324,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     font-style: italic;
     font-weight: normal
     }
@@ -3317,7 +3335,7 @@ img {
     font-size: 1.29167em;
     font-style: italic;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .ital3 {
     -moz-box-sizing: border-box;
@@ -3326,7 +3344,7 @@ img {
     font-size: 1.11111em;
     font-style: italic;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .ital4 {
     -moz-box-sizing: border-box;
@@ -3334,7 +3352,7 @@ img {
     box-sizing: border-box;
     font-style: italic;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .ital5 {
     -moz-box-sizing: border-box;
@@ -3353,14 +3371,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3381,14 +3399,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3410,14 +3428,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3438,14 +3456,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3463,13 +3481,13 @@ img {
     -moz-hyphens: none;
     -webkit-box-sizing: border-box;
     -webkit-hyphens: none;
-    border-bottom-color: black;
+    border-bottom-color: #f8f8f2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     box-sizing: border-box;
     display: table-cell;
     hyphens: none;
-    line-height: 1.2;
+    line-height: 180%;
     padding-bottom: 3px;
     padding-left: 3px;
     padding-right: 3px;
@@ -3482,23 +3500,23 @@ img {
 .lines {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: #000;
+    border-bottom-/* color: #000  */
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-collapse: collapse;
-    border-left-color: #000;
+    border-left-/* color: #000  */
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: #000;
+    border-right-/* color: #000  */
     border-right-style: solid;
     border-right-width: 1px;
     border-spacing: 0;
-    border-top-color: #000;
+    border-top-/* color: #000  */
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-top: 10px;
     page-break-inside: avoid;
@@ -3513,14 +3531,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3541,14 +3559,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3569,14 +3587,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 39px;
     margin-right: 0;
@@ -3597,14 +3615,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3625,14 +3643,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 16px;
     margin-left: 0;
     margin-right: 0;
@@ -3654,14 +3672,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3682,14 +3700,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3710,14 +3728,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: Times, serif;
+    font-family: Times,sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3738,7 +3756,7 @@ img {
     box-sizing: border-box;
     display: table-cell;
     hyphens: none;
-    line-height: 1.2;
+    line-height: 180%;
     padding-bottom: 3px;
     padding-left: 3px;
     padding-right: 3px;
@@ -3751,23 +3769,23 @@ img {
 .nolines {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: #000;
+    border-bottom-/* color: #000  */
     border-bottom-style: solid;
     border-bottom-width: 0;
     border-collapse: collapse;
-    border-left-color: #000;
+    border-left-/* color: #000  */
     border-left-style: solid;
     border-left-width: 0;
-    border-right-color: #000;
+    border-right-/* color: #000  */
     border-right-style: solid;
     border-right-width: 0;
     border-spacing: 0;
-    border-top-color: #000;
+    border-top-/* color: #000  */
     border-top-style: solid;
     border-top-width: 0;
     box-sizing: border-box;
     display: table;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-top: 10px;
     page-break-inside: avoid;
@@ -3777,23 +3795,23 @@ img {
 .nolines1 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: #000;
+    border-bottom-/* color: #000  */
     border-bottom-style: solid;
     border-bottom-width: 0;
     border-collapse: collapse;
-    border-left-color: #000;
+    border-left-/* color: #000  */
     border-left-style: solid;
     border-left-width: 0;
-    border-right-color: #000;
+    border-right-/* color: #000  */
     border-right-style: solid;
     border-right-width: 0;
     border-spacing: 0;
-    border-top-color: #000;
+    border-top-/* color: #000  */
     border-top-style: solid;
     border-top-width: 0;
     box-sizing: border-box;
     display: table;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 5%;
     margin-right: 45%;
@@ -3805,23 +3823,23 @@ img {
 .nolines2 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: #000;
+    border-bottom-/* color: #000  */
     border-bottom-style: solid;
     border-bottom-width: 0;
     border-collapse: collapse;
-    border-left-color: #000;
+    border-left-/* color: #000  */
     border-left-style: solid;
     border-left-width: 0;
-    border-right-color: #000;
+    border-right-/* color: #000  */
     border-right-style: solid;
     border-right-width: 0;
     border-spacing: 0;
-    border-top-color: #000;
+    border-top-/* color: #000  */
     border-top-style: solid;
     border-top-width: 0;
     box-sizing: border-box;
     display: table;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 6px;
     margin-top: 6px;
     page-break-inside: avoid;
@@ -3830,23 +3848,23 @@ img {
 .nolines3 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border-bottom-color: #000;
+    border-bottom-/* color: #000  */
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-collapse: collapse;
-    border-left-color: #000;
+    border-left-/* color: #000  */
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: #000;
+    border-right-/* color: #000  */
     border-right-style: solid;
     border-right-width: 1px;
     border-spacing: 0;
-    border-top-color: #000;
+    border-top-/* color: #000  */
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
     display: table;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 6px;
     margin-top: 12px;
     page-break-inside: avoid;
@@ -3862,14 +3880,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
     font-family: "Helvetica (T1) Medium", sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
@@ -3892,14 +3910,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -3922,14 +3940,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
@@ -3953,14 +3971,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
     font-family: "Helvetica (T1) Medium", sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
@@ -3981,14 +3999,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 8px;
     margin-left: 0;
     margin-right: 0;
@@ -4009,14 +4027,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Adobe Caslon Pro", serif;
+    font-family: "Adobe Caslon Pro",sans-serif;
     font-size: 0.83333em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4037,14 +4055,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 15px;
     margin-left: 15px;
     margin-right: 15px;
@@ -4067,14 +4085,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Times New Roman", serif;
+    font-family: "Times New Roman",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4097,14 +4115,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Times New Roman", serif;
+    font-family: "Times New Roman",sans-serif;
     font-size: 0.83333em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4125,14 +4143,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Bold", serif;
+    font-family: "Dante MT Bold",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
-    line-height: 1.292;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4153,14 +4171,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium", serif;
+    font-family: "Dante MT Medium",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.348;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4181,14 +4199,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4211,7 +4229,7 @@ img {
     box-sizing: border-box;
     display: block;
     height: auto;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     /* margin-left: 1%;
     margin-right: 1%; */
@@ -4233,7 +4251,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     /* margin-left: 12%;
     margin-right: 13%; */
@@ -4252,14 +4270,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Adobe Caslon Pro", serif;
+    font-family: "Adobe Caslon Pro",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 12px;
     /* margin-left: 0;
     margin-right: 0;
@@ -4280,14 +4298,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4308,14 +4326,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Bold", serif;
+    font-family: "Dante MT Bold",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4336,14 +4354,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Bold", serif;
+    font-family: "Dante MT Bold",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4364,14 +4382,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4392,14 +4410,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 15px;
     margin-right: 0;
@@ -4420,14 +4438,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 27px;
     margin-right: 0;
@@ -4448,14 +4466,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 15px;
     margin-right: 0;
@@ -4477,14 +4495,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 15px;
     margin-right: 0;
@@ -4505,14 +4523,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4534,14 +4552,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4562,14 +4580,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4590,14 +4608,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4618,14 +4636,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4646,14 +4664,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Italic", serif;
+    font-family: "Dante MT Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4675,14 +4693,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4703,14 +4721,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4731,14 +4749,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4759,14 +4777,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 15px;
     margin-right: 15px;
@@ -4787,14 +4805,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4815,14 +4833,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4844,14 +4862,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4872,14 +4890,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 15px;
     margin-right: 0;
@@ -4900,14 +4918,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4928,14 +4946,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4957,14 +4975,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4985,14 +5003,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 8px;
     margin-left: 0;
     margin-right: 0;
@@ -5013,14 +5031,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5042,14 +5060,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5071,14 +5089,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5100,14 +5118,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5128,14 +5146,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5156,14 +5174,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5186,14 +5204,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
@@ -5214,14 +5232,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5243,14 +5261,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 14px;
     margin-right: 0;
@@ -5272,14 +5290,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 14px;
     margin-right: 0;
@@ -5302,14 +5320,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 14px;
     margin-right: 0;
@@ -5331,14 +5349,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
@@ -5360,14 +5378,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5388,14 +5406,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5416,14 +5434,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 55px;
     margin-right: 0;
@@ -5444,14 +5462,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.409;
+    line-height: 180%;
     margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
@@ -5468,7 +5486,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     font-family: Wingdings, sans-serif;
     font-size: 0.625em;
     font-style: normal;
@@ -5479,7 +5497,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     font-family: "Wingdings (OTF) Regular", sans-serif;
     font-size: 0.625em;
     font-style: normal;
@@ -5510,7 +5528,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Dante MT Regular", serif;
+    font-family: "Dante MT Regular",sans-serif;
     font-size: 0.625em;
     font-style: normal;
     font-weight: normal;
@@ -5525,7 +5543,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     }
 .x1 {
     -moz-box-sizing: border-box;
@@ -5536,7 +5554,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     }
 .x1aahead {
     -moz-box-sizing: border-box;
@@ -5547,14 +5565,14 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     break-after: column;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Lovato Light", serif;
+    font-family: "Lovato Light",sans-serif;
     font-size: 1.29167em;
     font-style: normal;
     font-variant: normal;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -5575,14 +5593,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Lovato Light", serif;
+    font-family: "Lovato Light",sans-serif;
     font-size: 1.29167em;
     font-style: normal;
     font-variant: normal;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -5603,14 +5621,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Minion Pro", serif;
+    font-family: "Minion Pro",sans-serif;
     font-size: 1em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5631,14 +5649,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Dante MT Medium Italic", serif;
+    font-family: "Dante MT Medium Italic",sans-serif;
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -5659,14 +5677,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Lovato Light", serif;
+    font-family: "Lovato Light",sans-serif;
     font-size: 1.29167em;
     font-style: normal;
     font-variant: normal;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 1px;
     margin-left: 0;
     margin-right: 0;
@@ -5688,14 +5706,14 @@ img {
     border-right-width: 0;
     border-top-width: 0;
     box-sizing: border-box;
-    color: #000;
+    /* color: #000  */
     display: block;
-    font-family: "Lovato Light", serif;
+    font-family: "Lovato Light",sans-serif;
     font-size: 1.29167em;
     font-style: normal;
     font-variant: normal;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 16px;
     margin-left: 0;
     margin-right: 0;
@@ -5717,7 +5735,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 37%;
     margin-right: auto;
@@ -5733,7 +5751,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     margin-left: 45%;
     margin-right: auto;
     width: 10%
@@ -5743,7 +5761,7 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: table-column;
-    line-height: 1.2;
+    line-height: 180%;
     margin-left: 40%;
     margin-right: auto;
     width: 20%
@@ -5757,7 +5775,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 20%;
     margin-right: auto;
@@ -5777,7 +5795,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 45%;
     margin-right: auto;
@@ -5797,7 +5815,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 30%;
     margin-right: auto;
@@ -5817,7 +5835,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 35%;
     margin-right: auto;
@@ -5845,7 +5863,7 @@ img {
     border-top-width: 0;
     box-sizing: border-box;
     display: block;
-    line-height: 1.2;
+    line-height: 180%;
     margin-bottom: 0;
     margin-left: 15%;
     margin-right: auto;
@@ -5869,7 +5887,7 @@ img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    line-height: 1.2;
+    line-height: 180%;
     margin-left: 10%;
     margin-right: auto;
     width: 80%
@@ -5882,7 +5900,7 @@ img {
     font-size: 1.66667em;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.2
+    line-height: 180%;
     }
 .pcalibre:before {
     -moz-box-sizing: border-box;
