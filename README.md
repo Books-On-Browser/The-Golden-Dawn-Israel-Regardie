@@ -1,4 +1,4 @@
-# The Golden Dawn by Israel Regardie
+# The Golden Dawn - Israel Regardie
 
 ![cover](cover.jpg)
 
